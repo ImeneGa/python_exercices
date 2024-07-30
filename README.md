@@ -14,17 +14,17 @@ A Janus number is a number that represents the same value when reading it both w
 Give the Janus numbers between the limits a and b
 
 Exercise 4:
-Harshad numbers are numbers divisible by the sum of the digits that compose them. So, in all number bases we find Harshad numbers.
-In addition, there are special numbers called complete Harshad because they are Harshad in all bases between 2 and 10, we count them at 4!
-Find the first n Harshad numbers in all bases, and also find the 4 prime Harshad numbers.
+Convert a base 10 integer to a binary base integer (2)
 
 Exercise 5:
+Harshad numbers are numbers divisible by the sum of the digits that compose them. So, in all number bases we find Harshad numbers.
+In addition, there are special numbers called complete Harshad because they are Harshad in all bases between 2 and 10, we count them at 4!
+Find the first n Harshad numbers in all bases, and also find the 4 prime complete Harshad.
+
+Exercise 6:
 We wish, from a number of 7 positions, to extract the 3 central positions of the number and:
 Put them in an elementary object a
 Replace them with 0s and put the result in b
-
-Exercise 6:
-Convert a base 10 integer to a binary base integer (2)
 
 Exercise 7:
 Build a solution that allows us to write a number n in full, with n < 1000
