@@ -15,7 +15,7 @@ def isInt(n):
 val = True
 
 while val:
-    n = input('Enter a number \n')
+    n = input('Enter a number\n')
     if isInt(n):
         tab = []
         for i in range(1, int(n)):

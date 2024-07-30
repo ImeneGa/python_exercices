@@ -16,7 +16,7 @@ def isInt(n):
 val = True
 
 while val:
-    n = input('Enter a number \n')
+    n = input('Enter a number\n')
     if isInt(n):
         print(n, 'is primary!' if isPrimary(int(n)) else 'is not primary!')
         val = False
