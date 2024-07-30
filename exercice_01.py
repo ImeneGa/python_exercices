@@ -1,4 +1,4 @@
-def isNatural(n):
+def isPrimary(n):
     a = n // 2
     div = []
     for i in range(1, a, 1):
@@ -7,4 +7,4 @@ def isNatural(n):
     return div == [1]
 
 n = int(input('Enter a number \n'))
-print(n, ' is natural!' if isNatural(n) else ' is not natural!')
+print(n, ' is primary!' if isPrimary(n) else ' is not primary!')
