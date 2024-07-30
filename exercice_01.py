@@ -6,5 +6,19 @@ def isPrimary(n):
             div.append(i)
     return div == [1]
 
-n = int(input('Enter a number \n'))
-print(n, ' is primary!' if isPrimary(n) else ' is not primary!')
+def isInt(n):
+    try:
+        int(n)
+        return True
+    except ValueError:
+        return False
+
+val = True
+
+while val:
+    n = input('Enter a number \n')
+    if isInt(n):
+        print(n, 'is primary!' if isPrimary(int(n)) else 'is not primary!')
+        val = False
+    else:
+        print(n, 'is not an integer! Try again')
