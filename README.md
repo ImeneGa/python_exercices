@@ -25,7 +25,7 @@ Exercise 6:
 Build a solution that allows us to write a number n in full letters, with n < 1000
 
 Exercise 7:
-Convert a number to Roman numerals.
+You are given a list of integers from m to n with one number missing. The integers in the list are unique and range from m to n The list is ordered and will always have one missing number, your task is to find it.
 
 Exercise 8:
 Knowing that a palindrome is a sentence that can be read in both directions, construct the solution that allows you to know if a sentence is a palindrome or not.
