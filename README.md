@@ -22,41 +22,36 @@ In addition, there are special numbers called complete Harshad because they are 
 Find the first n complete Harshad numbers.
 
 Exercise 6:
-We wish, from a number of 7 positions, to extract the 3 central positions of the number and:
-Put them in an elementary object a
-Replace them with 0s and put the result in b
+Build a solution that allows us to write a number n in full letters, with n < 1000
 
 Exercise 7:
-Build a solution that allows us to write a number n in full, with n < 1000
-
-Exercise 8:
 Convert a number to Roman numerals.
 
-Exercise 9:
+Exercise 8:
 Knowing that a palindrome is a sentence that can be read in both directions, construct the solution that allows you to know if a sentence is a palindrome or not.
 
-Exercise 10:
+Exercise 9:
 How to check if two integers a and b are composed of the same digits?
 
-Exercise 11:
+Exercise 10:
 From an integer n we would like to obtain two other numbers
 a and b
 The first will consist of the even digits of n and the second by the digits
 odd of n
 
-Exercise 12:
+Exercise 11:
 Knowing that two numbers a and b are said to be friends if the sum of the divisors of b is equal to b and the sum of the divisors of b is equal to a.
 Show friendly numbers less than 500.
 
-Exercise 13:
+Exercise 12:
 Mirror multiplication is such that for two numbers ABC and DE we have ABC * DE = CBA * ED
 Find all possible combinations.
 
-Exercise 14:
+Exercise 13:
 Among the mathematical curiosities, we find the band of 9s: if you take 3 numbers a, b and c, each of which is composed of 3 digits, and such that a + b = c and if the 9 digits used are 1, 2, 3 , 4, 5, 6, 7, 8, 9 then the sum of the digits constituting c is always equal to 18
 Build the solution that will allow you to find all the cases that respect this quirk as well as their number.
 
-Exercise 15:
+Exercise 14:
 Do you know what day of the week you were born? The following formula will give you the day of the week corresponding to a given date in the form DDMMYYYY:
 day = expression % 7
 expression = DD – 1 + |5x / 4| - |x / 100| + |x / 400| + |13(y + 1) / 5|
@@ -69,26 +64,26 @@ x = YYYY
 0 = Sunday, 1 = Monday…
 Build the solution to this problem.
 
-Exercise 16:
+Exercise 15:
 It can be shown that GCD (a,b) = GCD (b,r) where r is the remainder of the division of a by b. So the search for the GCD (Greatest Common Divisor) of a and b is replaced by the search for the GCD of b and r
 If we repeat this process, we obtain pairs (a,b), (b,r), ... increasingly smaller until (g,o) where g is the GCD of a and b
 This method is better known as the EUCLID algorithm.
 Construct the solution to this problem.
 
-Exercise 17:
+Exercise 16:
 Another method close to that of EUCLID is called the NICOMACHOS algorithm.
 It is based on subtraction instead of division.
 GCD (a,b) = GCD (b, a-b) with a >= b
 Build the solution to this problem.
 
-Exercise 18:
+Exercise 17:
 The square root of a number a can be obtained by an iterative method using the recurrence relation Xi+1 = ½ (Xi + a / Xi) which converges to the square root of a, i being the number of the iteration .
 We will begin the calculation by giving X0 the value a / 2. The calculation stops if
 the precision you set has been achieved.
 The precision is: |(Xi+1 - Xi) / Xi+1|
 Calculate the square root of a number with this method.
 
-Exercise 19:
+Exercise 18:
 In asymmetric methods of cryptography (public key encryption), there are 2 keys:
 A public key used for encryption
 A private key used for decryption
@@ -105,8 +100,8 @@ And to decrypt the message the receiver will have to apply the formula:
 m = c (power d) mod n
 Build the solution for this asymmetric encryption.
 
-Exercise 20:
+Exercise 19:
 How can you make change for any amount given in centimes but with the minimum number of notes and/or coins?
 
-Exercise 21:
+Exercise 20:
 In a small town, a virus begins to spread. On the first day, one person becomes infected. Every day, each infected person infects two others. If the city has 20,000 residents, how many days will it take for the entire city to become infected, assuming there are no recoveries or deaths?
