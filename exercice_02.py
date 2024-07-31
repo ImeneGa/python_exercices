@@ -1,4 +1,7 @@
 def isPerfect(n):
+    """
+    This function verifies if an integer n is perfect or not
+    """
     tab = []
     for i in range(1, n-1, 1):
         if (n % i) == 0:
@@ -6,6 +9,9 @@ def isPerfect(n):
     return n == sum(tab)
 
 def isInt(n):
+    """
+    This function verifies if n is an integer or not
+    """
     try:
         int(n)
         return True

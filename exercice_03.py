@@ -1,4 +1,7 @@
 def isInt(n):
+    """
+    This function verifies if n is an integer or not
+    """
     try:
         int(n)
         return True
@@ -6,6 +9,9 @@ def isInt(n):
         return False
     
 def isJanus(n):
+    """
+    This function verifies if an integer n is Janus or not
+    """
     j = 0
     a = 0
     for i in(n):

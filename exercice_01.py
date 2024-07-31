@@ -1,4 +1,7 @@
 def isPrimary(n):
+    """
+    This function verifies either an integer n is primary or not
+    """
     a = n // 2
     div = []
     for i in range(1, a, 1):
@@ -7,6 +10,9 @@ def isPrimary(n):
     return div == [1]
 
 def isInt(n):
+    """
+    This function verifies if n is an integer or not
+    """
     try:
         int(n)
         return True

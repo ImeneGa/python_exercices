@@ -1,4 +1,7 @@
-def convertToBase(n, x):
+def convertFrom10ToBaseX(n, x):
+    """
+    This function converts an integer n in base 10 to base x with x <= 10
+    """
     tab = []
     val = True
     
@@ -13,6 +16,9 @@ def convertToBase(n, x):
     return int(''.join(tab))
 
 def isInt(n):
+    """
+    This function verifies if n is an integer or not
+    """
     try:
         int(n)
         return True
@@ -33,7 +39,7 @@ while val:
                     print(x,'> 9 while x should be <= 9 Try again')
                 else:
                     val2 = False
-                    print(n, 'in base', x, 'is', convertToBase(int(n), int(x)))    
+                    print(n, 'in base', x, 'is', convertFrom10ToBaseX(int(n), int(x)))    
             else:
                 print(x, 'is not an integer! Try again')
     else:
