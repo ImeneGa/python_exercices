@@ -14,7 +14,11 @@ A Janus number is a number that represents the same value when reading it both w
 Give the Janus numbers between the limits a and b
 
 Exercise 4:
+<<<<<<< HEAD
 Convert a base 10 integer to a base x integer with x <= 9
+=======
+Convert a base 10 integer to an integer base x with w <= 9
+>>>>>>> 0e9245e5bfbc989543e449f5d198e0d4db567320
 
 Exercise 5:
 Harshad numbers are numbers divisible by the sum of the digits that compose them. So, in all number bases we find Harshad numbers.
