@@ -39,7 +39,7 @@ a and b
 The first will consist of the even digits of n and the second of the odd digits of n
 
 Exercise 11:
-Knowing that two numbers a and b are said to be friends if the sum of the divisors of b is equal to b and the sum of the divisors of b is equal to a.
+Knowing that two numbers a and b are said to be friends if the sum of the proper divisors of a is equal to b and the sum of the proper divisors of b is equal to a.
 Show friendly numbers less than 500.
 
 Exercise 12:
