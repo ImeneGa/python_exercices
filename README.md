@@ -77,9 +77,8 @@ Build the solution to this problem.
 
 Exercise 17:
 The square root of a number a can be obtained by an iterative method using the recurrence relation Xi+1 = ½ (Xi + a / Xi) which converges to the square root of a, i being the number of the iteration .
-We will begin the calculation by giving X0 the value a / 2. The calculation stops if
-the precision you set has been achieved.
-The precision is: |(Xi+1 - Xi) / Xi+1|
+We will begin the calculation by giving X0 the value a / 2. The calculation stops if the precision you set has been achieved.
+The precision is: (Xi+1 - Xi) // Xi+1
 Calculate the square root of a number with this method.
 
 Exercise 18:
