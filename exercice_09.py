@@ -1,6 +1,6 @@
 def sameDigits(a, b):
     """
-    This function verifies if 2 numbers have the same digits
+    This function verifies if 2 integer numbers have the same digits
     """
     if len(str(a)) != len(str(b)):
         return False

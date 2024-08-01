@@ -78,7 +78,7 @@ tab = []
 n2 = 1
 val = True
 
-print("You will be looking for the n first Harshad numbers with n >= 1")
+print("You will be looking for the n first Harshad integer numbers with n >= 1")
 while val:
     n = input('Enter the value of n\n')
     if isInt(n):

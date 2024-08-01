@@ -1,6 +1,6 @@
 def missingNumber(tab):
     """
-    This function looks for the unique missing number in an ordered list
+    This function looks for the unique missing integer number in an ordered list of integers
     """
     j = 0
 

@@ -23,7 +23,7 @@ val1 = True
 val2 = True
 tab = []
 
-print("You're looking for Janus numbers between a and b")
+print("You're looking for Janus integer numbers between a and b")
 while val1:
     a = input('Enter the value of a\n')
     if isInt(a):

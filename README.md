@@ -36,8 +36,7 @@ How to check if two integers a and b are composed of the same digits?
 Exercise 10:
 From an integer n we would like to obtain two other numbers
 a and b
-The first will consist of the even digits of n and the second by the digits
-odd of n
+The first will consist of the even digits of n and the second of the odd digits of n
 
 Exercise 11:
 Knowing that two numbers a and b are said to be friends if the sum of the divisors of b is equal to b and the sum of the divisors of b is equal to a.
