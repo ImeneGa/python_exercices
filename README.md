@@ -53,13 +53,13 @@ Build the solution that will allow you to find all the cases that respect this q
 Exercise 14:
 Do you know what day of the week you were born? The following formula will give you the day of the week corresponding to a given date in the form DDMMYYYY:
 day = expression % 7
-expression = DD – 1 + |5x / 4| - |x / 100| + |x / 400| + |13(y + 1) / 5|
+expression = DD – 1 + 5x // 4 - x // 100 + x // 400 + (13(y + 1) // 5)
 If MM = 1 or 2
-y = MM + 12
-x = YYYY - 1
+    y = MM + 12
+    x = YYYY - 1
 If MM > 2
-y = MM
-x = YYYY
+    y = MM
+    x = YYYY
 0 = Sunday, 1 = Monday…
 Build the solution to this problem.
 
