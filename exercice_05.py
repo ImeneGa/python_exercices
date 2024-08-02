@@ -17,7 +17,6 @@ def isInBaseX(n, x):
             return False
     return True
 
-
 def convertFromXtoBase10(n, x):
     """
     This function converts an integer n in base x with x <= 10 to base 10 
